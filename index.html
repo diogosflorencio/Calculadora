@@ -8,26 +8,40 @@
 </head>
 <body>
     <main class="container">
-        <input class="input" value="" type="text">
-        <button class="button-AC">AC</button>
-        <button class="button-+/-">+/-</button>
-        <button class="button-%">%</button>
-        <button class="button-/">/</button>
-        <button class="button-7">7</button>
-        <button class="button-8">8</button>
-        <button class="button-9">9</button>
-        <button class="button-X">X</button>
-        <button class="button-4">4</button>
-        <button class="button-5">5</button>
-        <button class="button-6">6</button>
-        <button class="button--">-</button>
-        <button class="button-1">1</button>
-        <button class="button-2">2</button>
-        <button class="button-3">3</button>
-        <button class="button-+">+</button>
-        <button class="button-0">0</button>
-        <button class="button-.">.</button>
-        <button class="button-=">=</button>
+        <div class="calculadora">
+            <div class="partes" id="display">
+                <input class="input" value="" type="text">
+            </div>
+            <div class="partes" id="parte-1">
+                <button class="AC">AC</button>
+                <button class="mais-menos">+/-</button>
+                <button class="porcentagem">%</button>
+                <button class="divisor">/</button>
+            </div>
+            <div class="partes" id="parte-2">
+                <button class="sete">7</button>
+                <button class="oito">8</button>
+                <button class="nove">9</button>
+                <button class="X">X</button>
+            </div>
+            <div class="partes" id="parte-3">
+                <button class="quatro">4</button>
+                <button class="cinco">5</button>
+                <button class="seis">6</button>
+                <button class="menos">-</button>
+            </div>
+            <div class="partes" id="parte-4">
+                <button class="um">1</button>
+                <button class="dois">2</button>
+                <button class="tres">3</button>
+                <button class="mais">+</button>
+            </div>
+            <div class="partes" id="parte-5">
+                <button onclick="input(0)" class="zero">0</button>
+                <button class="ponto">.</button>
+                <button class="igualdade">=</button>
+            </div>
+        </div>
     </main>
     
     <script src="js/script.js"></script>
