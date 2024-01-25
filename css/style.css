@@ -48,12 +48,6 @@ body {
     padding: 10px;
     font-size: 60px;
 }
-button {
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    cursor: pointer;
-}
 .partes {
     display: flex;
 }
@@ -85,12 +79,16 @@ button {
     border-radius: 50px;
 }
 .partes button {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    cursor: pointer;
     color: white;
     background-color: #333333;
     margin: 5px;
     border: none;
     font-size: 32px;
-    font-family:sans-serif ;
+    font-family: sans-serif ;
     font-weight: 500;
-    text-align: center;
+    align-self: center;
 }
