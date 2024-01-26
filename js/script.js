@@ -33,6 +33,18 @@ for(let i = 0; i < botoes.length; i++){
     }
 }
 
+// easteregg
+
+const ce = document.getElementById("ce");
+ce.addEventListener("click", () => {
+    if(visor.value == "++++"){
+        visor.value = "Cecília =)"
+        setTimeout(function(){
+            visor.value = ""
+        }, 3000)
+    }
+})
+
 // tema 
 
 const body = document.getElementsByClassName("back")[0]
